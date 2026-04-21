@@ -1,27 +1,36 @@
-# SaudeBemEstar
+# 🏥 Saúde & Bem-estar
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+O Saúde & Bem-estar é um aplicativo web desenvolvido em Angular projetado para reunir ferramentas de monitoramento da saúde em um único lugar. O objetivo é oferecer uma interface intuitiva para ajudar os usuários a cuidarem da sua saúde física e mental, com funcionalidades como cálculo de IMC, registro de treinos, monitoramento de hidratação e diário de humor.
 
-## Development server
+## 🚀 Funcionalidades Atuais
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+📊 **Calculadora IMC:** Calcule seu Índice de Massa Corporal e descubra sua classificação (abaixo do peso, normal, sobrepeso, obesidade). Inclui cálculo da Taxa Metabólica Basal (TMB) e recomendação calórica diária.
 
-## Code scaffolding
+💪 **Registro de Treinos:** Monitore seus exercícios físicos com categorias para cardio, força e flexibilidade. Sistema de cronômetro para exercícios e histórico de treinos realizados com cálculo de calorias estimadas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+💧 **Monitor de Hidratação:** Controle sua ingestão diária de água com copo virtual interativo. Meta personalizável (padrão 2.5L), gráfico semanal de consumo e notificações para lembrar de beber água.
 
-## Build
+😊 **Diário de Humor:** Registre seu humor diário com emojis (😊 😐 😢 😠). Acompanhe sintomas como dor de cabeça, cansaço, ansiedade e estresse. Calendário visual com código de cores e estatísticas mensais de bem-estar.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 💻 Tecnologias Utilizadas
 
-## Running unit tests
+O projeto foi construído utilizando as seguintes tecnologias:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Angular 18:** Framework principal para construção da interface com standalone components.
 
-## Running end-to-end tests
+**Angular Router:** Gerenciamento de rotas e navegação entre as ferramentas.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Reactive Forms:** Gerenciamento de formulários reativos e validações.
 
-## Further help
+**TypeScript:** Lógica de programação tipada e manipulação de dados.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**CSS3:** Estilização responsiva com design system próprio (cards, animações, gradientes).
+
+**IndexedDB + LocalStorage:** Armazenamento local persistente para dados de saúde.
+
+## 🛠️ Como Executar o Projeto
+
+### Clone o repositório:
+```bash
+git clone https://github.com/SouzaLucas07/saude-bem-estar.git
+
